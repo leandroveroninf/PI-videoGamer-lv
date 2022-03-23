@@ -1,0 +1,143 @@
+.volver {
+  position: absolute;
+  margin: 10px;
+}
+
+.formulario {
+  width: 650px;
+  background-color: #48484847;
+  /* border-color: #ff5722; */
+  display: flex;
+  position: absolute;
+  grid-gap: 15px;
+  gap: 15px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 30px;
+  border-radius: 25px;
+  right: 100px;
+  margin: 30px auto;
+  justify-content: space-around;
+  color: white;
+  box-shadow: 5px 3px 10px 0px #ffffff7d;
+}
+
+.error {
+  box-shadow: -1px 4px 4px 2px #0000007d;
+  margin-top: 10px;
+  padding: 1px;
+  text-align: initial;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.error > p {
+  /* color: red; */
+  margin: 0;
+  font-size: 14px;
+  text-align: justify;
+}
+.error > span {
+  color: #fefbfb;
+  background-color: #b201018f;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.imgSelec {
+  width: 240px;
+  height: 140px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 12px 0px black;
+}
+
+div label {
+  display: flex;
+  color: white;
+  font-weight: 600;
+}
+
+input {
+  background-color: #0e0e0eb5;
+  color: white;
+  margin-top: 7px;
+  padding: 7px;
+  /* font-size: 17px; */
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  /* padding: 5px; */
+}
+
+.txtInp {
+  width: 93%;
+}
+
+textarea {
+  background-color: #0e0e0eb5;
+  color: white;
+  height: 78px;
+  width: 97%;
+  border-radius: 5px;
+  border: 0;
+}
+
+.formularioData {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.save {
+  width: 100%;
+  font-size: 18px;
+  padding: 12px;
+  background-color: #af0814;
+  background: linear-gradient(20deg, #af0814 26%, #1a1d224d 52%, #af0814);
+  border-radius: 9999px;
+}
+
+.formularioDataFecha > input {
+  /* background-color: red; */
+  width: 93%;
+}
+
+.formularioDataRan {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 300px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.formularioDataSel .selecion {
+}
+
+.form_div {
+}
+
+.selecionDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.container {
+  background-image: url("https://fondosmil.com/fondo/10898.jpg");
+  /* display: inline-block; */
+  /* background-attachment: fixed; */
+  /* text-align: center; */
+  background-size: cover;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #00000069;
+}

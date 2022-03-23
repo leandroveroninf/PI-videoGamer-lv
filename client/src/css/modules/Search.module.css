@@ -1,0 +1,26 @@
+.containerSearch > input {
+  background-color: #0e0e0eb5;
+  color: white;
+  margin: 7px;
+  padding: 7px;
+  font-size: 17px;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  /* border-block-color: red; */
+  /* border: coral; */
+}
+
+.containerSearch > button {
+  background-color: #ffffffad;
+  color: black;
+  border: 0;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.containerSearch > button:hover {
+  background-color: #8a000078;
+  color: white;
+}

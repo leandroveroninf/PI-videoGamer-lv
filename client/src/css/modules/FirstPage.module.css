@@ -1,0 +1,25 @@
+.containerFirstPage {
+  display: inline-block;
+  background-color: #1313138f;
+  padding: 50px;
+  border-radius: 15px;
+  margin-top: 150px;
+  box-shadow: 1px 2px 1px #892636;
+}
+
+.containerFirstPage > h1 {
+  width: 550px;
+  color: #fffeee;
+}
+
+.containerFirstPage > a > button {
+  padding: 15px;
+  font-size: 20px;
+  background-color: #0000008c;
+  border-radius: 9999px;
+  width: 150px;
+  margin: 20px;
+  color: #ff0f36;
+  font-weight: 800;
+  box-shadow: 1px 2px 1px #892636;
+}

@@ -1,0 +1,103 @@
+.cards {
+  display: flex;
+  align-content: space-around;
+  flex-direction: row;
+  align-items: stretch;
+  flex-wrap: wrap;
+  grid-gap: 15px;
+  gap: 15px;
+  justify-content: space-evenly;
+}
+
+.noEncontrado {
+  color: #ff0000;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.loading {
+  width: 300px;
+  border-radius: 50%;
+  opacity: 0.6;
+  margin: 150px auto;
+}
+
+.containerError {
+  position: absolute;
+  background-image: url(https://fondosmil.com/fondo/3040.jpg);
+  background-attachment: fixed;
+  text-align: center;
+  background-size: cover;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.errorCon {
+  margin: 20% auto;
+  width: 550px;
+  color: #db0f30;
+  font-size: 25px;
+  border-radius: 15px;
+  background-color: #12110f66;
+  box-shadow: -2px 0px 11px 0px #db0f30;
+}
+
+.containerNav {
+  display: flex;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  background-color: #090909bf;
+  padding: 17px;
+  align-items: flex-end;
+}
+
+.buttonReset,
+a > button {
+  background-color: #ffffffad;
+  color: black;
+  border: 0;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.buttonReset:hover,
+a > button:hover {
+  background-color: #8a000078;
+  color: white;
+}
+
+select {
+  margin: 2px;
+  width: 100%;
+  font-size: 15px;
+  background-color: #8a0000;
+  color: white;
+  border-color: #8a0000;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.page > p {
+  display: inline-block;
+  background-color: #8a00006b;
+  padding: 11px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+}
+
+.containerSelec {
+  color: white;
+  text-align: right;
+  width: 150px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

@@ -1,0 +1,26 @@
+.navPag {
+  background-color: #090909bf;
+  position: sticky;
+  top: 80px;
+}
+
+.olPag {
+  display: inline-block;
+  color: white;
+  background-color: #8a0000;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.olPag:hover {
+  background-color: #090909bf;
+}
+
+.ulPag {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
